@@ -1,6 +1,27 @@
 # Create T3 App
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app` using [Drizzle-orm](https://github.com/drizzle-team/drizzle-orm).
+
+## Get started
+
+1. Copy and fill secrets
+
+```bash
+pnpm i
+cp .env.example .env
+```
+
+2. Push your schema changes
+
+```bash
+pnpm db:push
+```
+
+3. Start developing
+
+```bash
+pnpm dev
+```
 
 ## What's next? How do I make an app with this?
 
@@ -10,7 +31,7 @@ If you are not familiar with the different technologies used in this project, pl
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
+- [Drizzle-orm](https://github.com/drizzle-team/drizzle-orm)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
